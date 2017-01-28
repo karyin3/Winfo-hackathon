@@ -1,6 +1,12 @@
 {
     "cans": {
-        "category": "recycle"
+        "category": "Recycle",
+        "instructions": "No preparation required",
+        "DIY": {
+        	"DIY-pic": "http://www.diyncrafts.com/wp-content/uploads/2016/02/recycle-repurpose-soda-cans-easy-projects.jpg",
+        	"DIY-link": "http://www.diyncrafts.com/17586/repurpose/20-ways-to-recycle-soda-cans",
+        	"DIY-title": "20 Genius Ways to Recycle Soda Cans into Amazing DIY Projects"
+        }
     },
     "shoeboxes": {
     	"category": "recycle"
