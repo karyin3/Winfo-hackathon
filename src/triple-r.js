@@ -32,6 +32,7 @@
 	}
 
 	function loadCompostPage() {
+		console.log("compost");
 		document.getElementById("home-page").style.display = "none";
 		document.getElementById("recycle-page").style.display = "none";
 		document.getElementById("compost-page").style.display = "block";
@@ -48,6 +49,7 @@
 	}
 
 	function findItem() {
+		console.log("item");
 		//var data = require('./itemData.json');
 		//var data = JSON.parse(this.responseText);
 		var info = '{ "cans": { "category": "Recycle", "instructions": "No preparation required", "DIY": { "DIY-pic": "http://www.diyncrafts.com/wp-content/uploads/2016/02/recycle-repurpose-soda-cans-easy-projects.jpg", "DIY-link": "http://www.diyncrafts.com/17586/repurpose/20-ways-to-recycle-soda-cans", "DIY-title": "20 Genius Ways to Recycle Soda Cans into Amazing DIY Projects" } }, "shoeboxes": { "category": "recycle" } } ';
