@@ -2,7 +2,8 @@
 	window.onload = function() {
 		loadHomePage();
 		document.getElementById("search").onclick = findItem;
-		document.getElementById("main").onclick = loadHomePage;
+		document.getElementById("main1").onclick = loadHomePage;
+		document.getElementById("main2").onclick = loadHomePage;
 		document.getElementById("recycle").onclick = loadRecyclePage;
 		document.getElementById("compost").onclick = loadCompostPage;
 		document.getElementById("landfill").onclick = loadLandfillPage;
