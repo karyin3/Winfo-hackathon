@@ -88,6 +88,7 @@
 		var options = ["category", "instructions", "recycle-number", "DIY"];
 		for (var i = 0; i < options.length; i++) {
 			if (info[options[i]]) {
+				document.getElementById(options[i] + '-div').style.display = "";
 				if (options[i] !== "DIY") {
 					document.getElementById(options[i]).innerHTML = info[options[i]];
 				} else {
