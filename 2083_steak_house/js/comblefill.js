@@ -4,6 +4,8 @@
 		document.getElementById("search").onclick = findItem;
 		document.getElementById("main1").onclick = loadHomePage;
 		document.getElementById("main2").onclick = loadHomePage;
+		document.getElementById("main3").onclick = loadHomePage;
+		document.getElementById("main4").onclick = loadHomePage;
 		document.getElementById("recycle").onclick = loadRecyclePage;
 		document.getElementById("compost").onclick = loadCompostPage;
 		document.getElementById("landfill").onclick = loadLandfillPage;
@@ -22,6 +24,7 @@
 		document.getElementById("compost-page").style.display = "none";
 		document.getElementById("landfill-page").style.display = "none";
 		document.getElementById("single-page").style.display = "none";
+		window.scrollTo(0, 0);
 	}
 
 	function loadRecyclePage() {
@@ -30,6 +33,7 @@
 		document.getElementById("compost-page").style.display = "none";
 		document.getElementById("landfill-page").style.display = "none";
 		document.getElementById("single-page").style.display = "none";
+		window.scrollTo(0, 0);
 	}
 
 	function loadCompostPage() {
@@ -38,6 +42,7 @@
 		document.getElementById("compost-page").style.display = "";
 		document.getElementById("landfill-page").style.display = "none";
 		document.getElementById("single-page").style.display = "none";
+		window.scrollTo(0, 0);
 	}
 
 	function loadLandfillPage() {
@@ -46,6 +51,7 @@
 		document.getElementById("compost-page").style.display = "none";
 		document.getElementById("landfill-page").style.display = "";
 		document.getElementById("single-page").style.display = "none";
+		window.scrollTo(0, 0);
 	}
 
 	function findItem() {
@@ -57,6 +63,7 @@
 		if (data[item]) {
 			loadItemPage(data[item], item);
 		}
+		window.scrollTo(0, 0);
     }
 
     function loadItemPage(info, item) {
